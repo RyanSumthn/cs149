@@ -1,0 +1,175 @@
+    1  sudo mv /home/ryan/Downloads/w7login.oga /usr/share/mint-artwork/sounds/
+    2  whereis mpv
+    3  neofetch
+    4  ls -lha /usr/share/mint-artwork/sounds
+    5  neofetch
+    6  sudo make install
+    7  neofetch
+    8  cava
+    9  neofetch
+   10  cava
+   11  htop
+   12  cmatrix
+   13  sudo apt update
+   14  sudo apt install -y default-jdk
+   15  java -version
+   16  ls -l antlr-4.13.2-complete.jar
+   17  cd
+   18  cd ~/Downloads
+   19  ls
+   20  ls -l antlr-4.13.2-complete.jar
+   21  chmod +x test.sh
+   22  ./test.sh test.expr
+   23  gpg --keyserver hkps://keys.openpgp.org --recv-keys 1161AE6945719A39
+   24  curl -O https://fedoraproject.org/fedora.gpg
+   25  gpgv --keyring ./fedora.gpg Fedora-KDE-42-1.1-x86_64-CHECKSUM
+   26  sha256sum --ignore-missing -c Fedora-KDE-42-1.1-x86_64-CHECKSUM
+   27  ./test.sh test.expr
+   28  swipl
+   29  pwd
+   30  cd ~
+   31  cd Desktop/
+   32  ls -latr ; mkdir cs149 ; cd cs149
+   33  date
+   34  pwd
+   35  cd ~
+   36  cd Desktop/cs149
+   37  ls -latr  ; mkdir wsA  ; cd wsA
+   38  ls -latr
+   39  echo $?
+   40  man ps
+   41  ps aux
+   42  top
+   43  wget https://github.com/torvalds/linux/archive/master.zip
+   44  unzip master.zip
+   45  cd linux-master
+   46  pwd
+   47  alias l='ls -latr'
+   48  l
+   49  find . -name mem.c
+   50  find . -name mem.c | xargs head
+   51  cd ..
+   52  pwd
+   53  pstree
+   54  ps -a -f -x
+   55  ps -a -f -x | more
+   56  top
+   57  man kill
+   58  echo $?
+   59  echo $$
+   60  cd ~/Desktop/
+   61  cd cs149
+   62  cd wsA
+   63  ls | wc
+   64  ls | sort
+   65  ls | sort | wc
+   66  ls -latr /bin/  > a.out
+   67  cat a.out | more
+   68  strace ls
+   69  du -sh.
+   70  du -sh .
+   71  df -i
+   72  history > worksheetA.log
+   73  head worksheetA.log
+   74  tail worksheetA.log
+   75  cat worksheetA.log
+   76  htop
+   77  cmatrix
+   78  cava
+   79  cd ...
+   80  cd ..
+   81  cd /Desktop
+   82  cd
+   83  cd ..
+   84  cd /Desktop
+   85  cd ..
+   86  swipl
+   87  ruby compiler.rb
+   88  ruby compiler.rb test.scm test.byco
+   89  ruby vm.rb test.byco
+   90  ruby vm.rb
+   91  ruby vm.rb test.byco
+   92  ruby compiler.rb test.scm test.byco
+   93  ruby vm.rb test.byco
+   94  ruby compiler.rb test.scm test.byco
+   95  ruby vm.rb test.byco
+   96  ruby compiler.rb test.scm test.byco
+   97  ruby vm.rb test.byco
+   98  ruby compiler.rb test.scm test.byco
+   99  ruby vm.rb test.byco
+  100  cd
+  101  ls
+  102  cd ..
+  103  cd
+  104  cd Desktop
+  105  ls
+  106  cd ..
+  107  cd Downloads
+  108  ls
+  109  cd
+  110  ls
+  111  cd ..
+  112  ls
+  113  cd ryan
+  114  ls
+  115  cd example
+  116  ls
+  117  cd
+  118  htop
+  119  sudo apt install htop
+  120  htop
+  121  top
+  122  sudo apt install pipes.sh
+  123  sudo apt install pipes
+  124  sudo apt install pipes-sh
+  125  pipes-sh
+  126  pipes
+  127  cmatrix
+  128  ruby compiler.rb test.scm test.byco
+  129  ruby vm.rb test.byco
+  130  pwd
+  131  cd ~
+  132  cd Desktop/
+  133  ls -latr ; mkdir cs149 ; cd cs149
+  134  git init
+  135  git remote add origin https://github.com/RyanSumthn/cs149.git
+  136  git config --global user.email "ryanddoc@outlook.com"
+  137  git config --global user.name "RyanSumthn"
+  138  mkdir WS_bonus
+  139  cd WS_bonus
+  140  git add .
+  141  wget -O out.pdf https://tinyurl.com/yy94jltt
+  142  ls -latr
+  143  history > cmds.log
+  144  git add cmds.log *.c
+  145  git commit -m "First commit" -a
+  146  git branch
+  147  git pull --rebase origin main
+  148  git branch -m main
+  149  git pull --rebase origin main'
+  150  main
+  151  git push -u origin main
+  152  git push -u origin main
+  153  git commit -m "First commit" -a
+  154  git add cmds.log
+  155  git commit -m "First commit" -a
+  156  git branch
+  157  git pull --rebase origin main
+  158  git branch -m main
+  159  git pull --rebase origin main
+  160  git push -u origin main
+  161  pwd
+  162  cd ~
+  163  cd Desktop/
+  164  ls -latr; mkdir cs149; cd cs149
+  165  git init
+  166  git branch -m main
+  167  git remote add origin https://github.com/RyanSumthn/cs149.git
+  168  git config --global user.email "ryanddoc@outlook.com"
+  169  git config --global user.name "RyanSumthn"
+  170  mkdir WS_bonus
+  171  cd WS_bonus
+  172  git add .
+  173  wget -O out.pdf https://tinyurl.com/yy94jltt
+  174  ls -latr
+  175  history > cmds.log
